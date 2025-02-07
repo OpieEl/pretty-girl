@@ -22,7 +22,7 @@ const track = async () => {
 function App() {
   const steps = [
     {
-      content: "Hey my pretty girl Chidera.",
+      content: "Hey, my pretty girl, Chidera.",
       image: "/character/one.png",
     },
     {
@@ -80,7 +80,7 @@ hold your hands, and look into your pretty eyes.`,
           transition={{ duration: 0.5 }}
         >
           <Confetti width={width} height={height} />
-          <div className="fixed top-0 left-0 w-full h-full bg-[#FFC5D3] flex flex-col items-center justify-center">
+          <div className="fixed top-0 left-0 w-full h-full bg-[#e63946] flex flex-col items-center justify-center">
             <motion.h1
               initial={{ scale: 0 }}
               animate={{ scale: 1 }}
@@ -97,7 +97,7 @@ hold your hands, and look into your pretty eyes.`,
           </div>
         </motion.div>
       )}
-      <div className="bg-[#FFC5D3] min-h-screen text-white p-5 flex flex-col items-center justify-center max-w-md mx-auto">
+      <div className="bg-[#e63946] min-h-screen text-white p-5 flex flex-col items-center justify-center max-w-md mx-auto">
         <motion.img
           key={currentStep}
           initial={{ opacity: 0, y: 20 }}
@@ -121,14 +121,14 @@ hold your hands, and look into your pretty eyes.`,
           <>
             <button
               onClick={() => setCurrentStep(currentStep + 1)}
-              className="bg-white text-[#FFC5D3] py-3 text-xl rounded-xl w-full mt-10 font-semibold"
+              className="bg-white text-[#e63946] py-3 text-xl rounded-xl w-full mt-10 font-semibold"
             >
               Next
             </button>
             {currentStep > 0 && (
               <button
                 onClick={() => setCurrentStep(currentStep - 1)}
-                className="bg-white text-[#FFC5D3] py-3 text-xl rounded-xl w-full mt-2 font-semibold opacity-90"
+                className="bg-white text-[#e63946] py-3 text-xl rounded-xl w-full mt-2 font-semibold opacity-90"
               >
                 Back
               </button>
@@ -142,7 +142,7 @@ hold your hands, and look into your pretty eyes.`,
                 setSheWantsToBeMyValentine(true);
                 await track();
               }}
-              className="bg-white text-[#FFC5D3] py-3 text-xl rounded-xl w-full mt-10 font-semibold"
+              className="bg-white text-[#e63946] py-3 text-xl rounded-xl w-full mt-10 font-semibold"
             >
               Yes
             </button>
@@ -152,7 +152,7 @@ hold your hands, and look into your pretty eyes.`,
                 setSheWantsToBeMyValentine(true);
                 await track();
               }}
-              className="bg-white text-[#FFC5D3] py-3 text-xl rounded-xl w-full mt-2 font-semibold"
+              className="bg-white text-[#e63946] py-3 text-xl rounded-xl w-full mt-2 font-semibold"
             >
               Yes
             </button>
