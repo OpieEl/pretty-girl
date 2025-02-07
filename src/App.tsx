@@ -22,14 +22,19 @@ const track = async () => {
 function App() {
   const steps = [
     {
-      content: "Heyyyyy, my pretty girl, Chidera.",
+      content: "Hey my pretty girl Chidera.",
       image: "/character/one.png",
     },
     {
-      content: `Recently, we met.
+      content: `One day, we met.
       And somehow, you've been on my mind ever since.
       `,
       image: "/character/two.png",
+    },
+    {
+      content: `Then we went on our first stroll …And I said fuck it, I want this girl.
+      `,
+      image: "/character/three.png",
     },
     {
       content: `You're beautiful, you're smart, you're fun,
